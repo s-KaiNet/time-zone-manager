@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "tslint.autoFixOnSave": true,
+    "files.autoSave": "off",
+    "files.autoSaveDelay": 2000
+}

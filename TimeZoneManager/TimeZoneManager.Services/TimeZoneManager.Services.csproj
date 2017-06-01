@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net451</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.0.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimeZoneManager.Data\TimeZoneManager.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Identity">
+      <HintPath>..\..\..\..\..\..\Users\administrator.SP\.nuget\packages\microsoft.aspnetcore.identity\1.1.2\lib\net451\Microsoft.AspNetCore.Identity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+dotnet ef --startup-project ./../TimeZoneManager/ migrations add Initial 
